@@ -14,7 +14,7 @@ export class InputTodo extends Component {
         <InputGroup className="my-3 w-50 m-auto">
           <Form.Control
             ref={this.inputRef}
-            placeholder="Recipient's username"
+            placeholder="Add Task or Todo"
             aria-label="Recipient's username"
           />
           <Button type="submit" variant="outline-success">
